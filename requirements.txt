@@ -1,0 +1,22 @@
+# ── Core data science ─────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ── Machine learning ─────────────────────────────────────────────────────────
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Web application ──────────────────────────────────────────────────────────
+streamlit>=1.28.0
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest>=7.4.0
+
+# ── Optional: deep learning ──────────────────────────────────────────────────
+# tensorflow>=2.13.0    # Uncomment for LSTM model
+# transformers>=4.30.0  # Uncomment for BERT fine-tuning
+# torch>=2.0.0          # Uncomment for PyTorch

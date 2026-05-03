@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Trained models (regenerate with python main.py)
+models/*.pkl
+models/*.joblib
+
+# Generated outputs
+confusion_matrix.png
+data/interim/
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
